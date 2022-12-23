@@ -2,8 +2,12 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
+   
 }
-
+@media only screen and (min-width:992px){
+justify-content: .benefits;
+}
 body {
     background-color: #d9dcd6;
 }
@@ -13,15 +17,23 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    display: flex;
+   flex-wrap: wrap;
+  
+    
 }
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    display: flex;
 }
 
 .header h1 .seo {
     color: #d9dcd6;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .header div {
@@ -62,6 +74,7 @@ p {
 .float-left {
     float: left;
     margin-right: 25px;
+    
 }
 
 .float-right {
@@ -80,10 +93,13 @@ p {
     padding: 20px;
     clear: both;
     float: right;
+    
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    
+    
 }
 
 .benefit-lead {
@@ -137,55 +153,73 @@ p {
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 350px;
+    justify-content: left;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+
 }
+        
 
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 350px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+text-align: left;
+   justify-content: left;
 }
 
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
+    height: 350px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    
 }
 
 .search-engine-optimization img {
     max-height: 200px;
+   
 }
 
 .online-reputation-management img {
-    max-height: 200px;
+    max-height: 175px;
+   
 }
 
 .social-media-marketing img {
     max-height: 200px;
+    
 }
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    display: flex;
+    
+    
 }
 
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    text-align: left;
+    display: flex;
+    margin: 20px;
+    
 }
 
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    text-align: center;
+    display: flex;
 }
 
 .footer {
@@ -193,6 +227,7 @@ p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    
 }
 
 .footer h2 {
